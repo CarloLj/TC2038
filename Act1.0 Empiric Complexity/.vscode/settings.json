@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "xiosbase": "cpp",
+        "chrono": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "fstream": "cpp",
+        "tuple": "cpp",
+        "iomanip": "cpp",
+        "iterator": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "iostream": "cpp"
+    }
+}
