@@ -15,10 +15,10 @@ $ g++ main.cpp -o main.out
 $ ./main
 ```
 
-Para ejecutar el programa usando el redireccionamiento de entrada haciendo uso de un texto se puede acceder a los datos precargados dentro de los archivos de texto de la carpeta tests, es necesario escribir el siguiente codigo, en donde estos archivos contienen el nombre tX.txt donde X es el numero de prueba en los casos de prueba descritos abajo:
+Para ejecutar el programa usando el redireccionamiento de entrada haciendo uso de un texto con los datos precargados:
 ```
 $ g++ main.cpp -o main.out
-$ ./main.out < ./tests/tX.txt
+$ ./main.out < ./tests/numbersX.txt
 ```
 
 ## Casos de prueba
@@ -73,6 +73,7 @@ Numbers after ordering (descending order)
 ```
 
 4- Caso de prueba en donde la lista ingresada esta mezclada en un caso de uso común (caso promedio)
+
 **Entrada**
 - n = 5
 - [3,2,5,4,1]
