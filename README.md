@@ -15,7 +15,7 @@ $ g++ main.cpp -o main.out
 $ ./main
 ```
 
-Para ejecutar el programa usando el redireccionamiento de entrada haciendo uso de un texto con los datos precargados:
+Para ejecutar el programa usando el redireccionamiento de entrada haciendo uso de un texto se puede acceder a los datos precargados dentro de los archivos de texto de la carpeta tests, es necesario escribir el siguiente codigo, en donde estos archivos contienen el nombre tX.txt donde X es el numero de prueba en los casos de prueba descritos abajo:
 ```
 $ g++ main.cpp -o main.out
 $ ./main.out < ./tests/tX.txt
