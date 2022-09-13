@@ -18,7 +18,7 @@ $ ./main
 Para ejecutar el programa usando el redireccionamiento de entrada haciendo uso de un texto con los datos precargados:
 ```
 $ g++ main.cpp -o main.out
-$ ./main.out < ./tests/numbersX.txt
+$ ./main.out < ./tests/tX.txt
 ```
 
 ## Casos de prueba
