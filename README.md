@@ -23,11 +23,11 @@ $ ./main.out < ./tests/numbersX.txt
 
 ## Casos de prueba
 
-1- Caso de prueba en donde el numero de enteros "n" a ingresar es igual a 0, es decir que el usuario ha tecleado que no hay ningun elemento que agregar por tanto n = 0, significando que no habra tiempo de ejecucion de acuerdo a la complejidad del algoritmo.
+1- Caso de prueba en donde el numero de enteros "n" a ingresar es igual o menor a 0, es decir un numero invalido.
 
 **Entrada**
-- n = 0
-- n = []
+- n <= 0 
+- []
 
 **Salida**
 ```
@@ -38,7 +38,7 @@ Please enter a value greater than 0
 
 **Entrada**
 - n = 1
-- n = [10]
+- [10]
 
 **Salida**
 ```
@@ -56,7 +56,7 @@ Numbers after ordering (descending order)
 3- Caso de prueba en donde la lista ingresada esta completamente ordenada (mejor caso)
 **Entrada**
 - n = 5
-- n = [5,4,3,2,1]
+- [5,4,3,2,1]
 
 **Salida**
 ```
@@ -74,7 +74,7 @@ Numbers after ordering (descending order)
 4- Caso de prueba en donde la lista ingresada esta mezclada en un caso de uso común (caso promedio)
 **Entrada**
 - n = 5
-- n = [3,2,5,4,1]
+- [3,2,5,4,1]
 
 **Salida**
 ```
@@ -92,7 +92,7 @@ Numbers after ordering (descending order)
 5- Caso de prueba en donde la lista ingresada esta completamente inversa (peor caso)
 **Entrada**
 - n = 5
-- n = [1,2,3,4,5]
+- [1,2,3,4,5]
 
 **Salida**
 ```
@@ -110,7 +110,7 @@ Numbers after ordering (descending order)
 6- Caso de prueba en donde la lista contiene numeros decimales muy cercanos
 **Entrada**
 - n = 10
-- n = [9.9,9.91,9.92,9.93,9.94,9.95,9.96,9.97,9.98,9.99]
+- [9.9,9.91,9.92,9.93,9.94,9.95,9.96,9.97,9.98,9.99]
 
 **Salida**
 ```
@@ -128,7 +128,7 @@ Numbers after ordering (descending order)
 7- Caso de prueba en donde la lista contiene numeros repetidos, enteros y numeros decimales
 **Entrada**
 - n = 7
-- n = [5,6,6,7.7,8.1,8,6]
+- [5,6,6,7.7,8.1,8,6]
 
 **Salida**
 ```
