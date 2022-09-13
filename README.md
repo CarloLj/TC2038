@@ -54,6 +54,7 @@ Numbers after ordering (descending order)
 ```
 
 3- Caso de prueba en donde la lista ingresada esta completamente ordenada (mejor caso)
+
 **Entrada**
 - n = 5
 - [5,4,3,2,1]
@@ -90,6 +91,7 @@ Numbers after ordering (descending order)
 ```
 
 5- Caso de prueba en donde la lista ingresada esta completamente inversa (peor caso)
+
 **Entrada**
 - n = 5
 - [1,2,3,4,5]
@@ -108,6 +110,7 @@ Numbers after ordering (descending order)
 ```
 
 6- Caso de prueba en donde la lista contiene numeros decimales muy cercanos
+
 **Entrada**
 - n = 10
 - [9.9,9.91,9.92,9.93,9.94,9.95,9.96,9.97,9.98,9.99]
@@ -126,6 +129,7 @@ Numbers after ordering (descending order)
 ```
 
 7- Caso de prueba en donde la lista contiene numeros repetidos, enteros y numeros decimales
+
 **Entrada**
 - n = 7
 - [5,6,6,7.7,8.1,8,6]
